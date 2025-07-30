@@ -25,3 +25,7 @@ span{
     justify-content: center;
     align-items: center;
 }
+
+.container{
+    box-shadow: 5px 10px 5px black;
+}

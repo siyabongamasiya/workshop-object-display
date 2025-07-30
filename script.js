@@ -1,6 +1,6 @@
 console.log("hello world")
 const myData = {
-  Name : 'terracotta Army',
+  Name : 'Terracotta Army',
   Country : 'china',
   Emperor : 'Qin Shi Huang',
   "Discovery-date" : '1974',
@@ -18,11 +18,11 @@ const myData = {
 const title = document.getElementById('title')
 const output = document.getElementById('text')
 
-const outputChild = `<p> <span>Name:</span> ${myData.Name}<p>
-<p><span>Country:</span> ${myData.Country}<p>
-<p><span>Emperor:</span> ${myData.Emperor}<p>
-<p><span>Discovery-Date:</span> ${myData["Discovery-date"]}<p>
-<p><span>Description:</span> ${myData.Description}<p>`
+const outputChild = `<p style="font-size: 1.2rem;"> <span style="font-size: 1.5rem;">Name: </span> ${myData.Name}<p>
+<p style="font-size: 1.2rem;"><span style="font-size: 1.5rem;">Country: </span> ${myData.Country}<p>
+<p style="font-size: 1.2rem;"><span style="font-size: 1.5rem;">Emperor: </span> ${myData.Emperor}<p>
+<p style="font-size: 1.2rem;"><span style="font-size: 1.5rem;">Discovery-Date: </span> ${myData["Discovery-date"]}<p>
+<p style="font-size: 1.2rem;"><span style="font-size: 1.5rem;">Description: </span> ${myData.Description}<p>`
 
 title.textContent = myData.Name
 output.innerHTML = outputChild
